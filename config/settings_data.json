@@ -7,7 +7,7 @@
     "color_accent": "#fad018",
     "color_button": "#ffffff",
     "product_grid_sale_color": "#c00000",
-    "product_grid_bg": "#fafafa",
+    "product_grid_bg": "#f5f5f5",
     "color_drawer_bg": "#0ea67c",
     "color_drawer_style": "light",
     "type_base_font": "akko_n4",
@@ -742,7 +742,7 @@
         ],
         "settings": {
           "title": "7 Solutions in One",
-          "desc": "<p><\/p>",
+          "desc": "",
           "content_align": "center",
           "link_title": "Learn more",
           "link": ""
@@ -1427,9 +1427,9 @@
       "1585320868914",
       "1566456250311",
       "1566456269728",
-      "1570820472460",
       "1568126616093",
       "1566456319558",
+      "1570820472460",
       "1568145113881",
       "1568149721795",
       "1570399646232",
