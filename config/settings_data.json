@@ -782,11 +782,11 @@
         "type": "home-image-text",
         "settings": {
           "image_alignment": "bottom",
-          "text": "<p><a href=\"\/pages\/why-vital-oxide\" title=\"Why Use Vital Oxide?\"><strong>Learn more about why Vital Oxide is the right Disinfectant and Mold Remover for you<\/strong><\/a><\/p>",
+          "text": "<p><strong>Learn more about why Vital Oxide is the right Disinfectant and Mold Remover for you<\/strong><\/p>",
           "inline_image_width": 200,
           "video": "",
           "link_title": "Learn more",
-          "link": "",
+          "link": "https:\/\/vitaloxide.com\/pages\/why-vital-oxide",
           "section_height": "small",
           "overlay_color": "#f5f5f5",
           "overlay_strength": 0,
@@ -934,6 +934,7 @@
       },
       "1570399646232": {
         "type": "home-slideshow",
+        "disabled": true,
         "blocks": {
           "1570399646232-0": {
             "type": "image",
