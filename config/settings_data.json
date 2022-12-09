@@ -1386,9 +1386,11 @@
       },
       "1585320868914": {
         "type": "home-slideshow",
+        "disabled": true,
         "blocks": {
           "1585320868914-0": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image_alignment": "center",
               "alignment": "left",
