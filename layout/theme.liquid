@@ -50,9 +50,10 @@
     {% include 'css-include' %}
 
     <!-- Tachyons CDN / EX Labs -->
-    <!-- link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/ -->
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}"/>
 
-    <!-- JS after CSSOM=================================================== --><script src="{{ 'theme.js' | asset_url }}" defer="defer"> </script>
+    <!-- JS after CSSOM=================================================== -->
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
     {% if settings.anim_load %}
