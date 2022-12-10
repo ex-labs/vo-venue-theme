@@ -5,6 +5,10 @@ html {
 }
 
 
+.bg-theme-green {
+    background-color: #2C8D6F;
+}
+
 #prof_use_global .card {
     margin-bottom: 20px;
     /*min-height: 250px;*/
