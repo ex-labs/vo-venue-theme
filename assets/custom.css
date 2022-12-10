@@ -100,7 +100,7 @@ html {
    .f7-m { font-size: .75rem; }
  }
  
- @media (--breakpoint-large) {
+ @media (min-width:1500px) {
    .f-6-l,
    .f-headline-l {
      font-size: 6rem;
