@@ -33,7 +33,7 @@ html {
 }
 
 .lowercase {
-    text-transform: lowercase!important;
+    text-transform: unset!important;
 }
 
 
