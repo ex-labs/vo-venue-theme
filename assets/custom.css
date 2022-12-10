@@ -18,3 +18,7 @@ html {
 #prof_use_global .card-text {
     /*min-height: 130px;*/
 }
+
+.profuse-bg {
+    height:450px;width:450px;background-size:cover;
+}
