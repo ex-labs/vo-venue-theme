@@ -682,6 +682,7 @@
       },
       "1568145113881": {
         "type": "home-text-columns",
+        "disabled": true,
         "blocks": {
           "1568145113881-0": {
             "type": "text",
@@ -757,6 +758,7 @@
       },
       "1568149721795": {
         "type": "home-text-columns",
+        "disabled": true,
         "blocks": {
           "1568149721795-0": {
             "type": "text",
