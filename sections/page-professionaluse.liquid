@@ -1,5 +1,19 @@
 <section class="section section--mb-s section--page page section--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="page-custom">
 
+
+  <!-- content section -->
+    <div class="section"> 
+      <div class="container container--tiny">
+        <div class="section__title section__title--center">
+          <h1 class="section__title-text h2">{{ page.title }}</h1>
+        </div>
+        <div class="page__content rte">
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+  <!-- /content section -->
+
   <div class="py-5" style="width:100%;background:green;">
     <div class="container">
       <div class="row">
@@ -20,21 +34,12 @@
 
   </div>
 
-  <!-- sections -->
+  <!-- customizer sections -->
 
-  <!-- end sectionss -->
 
-  <!-- content section -->
-    <div class="section"> <div class="container container--tiny">
-      <div class="section__title section__title--center">
-        <h1 class="section__title-text h2">{{ page.title }}</h1>
-      </div>
-      <div class="page__content rte">
-        {{ page.content }}
-      </div>
-    </div>
-  </div>
-  <!-- /content section -->
+  <!-- end customizer sections -->
+
+  
 </section>
 
 {% schema %}
