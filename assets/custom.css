@@ -12,9 +12,9 @@ html {
 
 #prof_use_global .card {
     margin-bottom: 20px;
-    min-height: 250px;
+    /*min-height: 250px;*/
 }
 
 #prof_use_global .card-text {
-    min-height: 130px;
+    /*min-height: 130px;*/
 }
