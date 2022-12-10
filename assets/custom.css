@@ -22,6 +22,12 @@ html {
 }
 
 
+/** Overrides **/
+
+.home-rich-text p {
+    text-align: left;
+}
+
 
 
 /*
