@@ -4,3 +4,7 @@
 #professionaluse {
     color:gray;
 }
+
+#prof_use_global .card {
+    min-height: 130px;
+}
