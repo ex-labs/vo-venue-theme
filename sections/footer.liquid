@@ -16,7 +16,7 @@
 {% if section.settings.footer_newsletter_enable %}
     {% if section.settings.footer_newsletter_home == false or template.name != 'index' %}
         <section class="section section--{{ section.id }}">
-            <div class="container-fluid">
+            <div class="container">
                 
                 <div class="newsletter newsletter--{{ section.settings.newsletter_style }}">
                     <div class="newsletter__content">
@@ -66,7 +66,7 @@
 {% endif %}
 
 <footer role="contentinfo" id="footer" class="footer footer--{{ section.settings.footer_style }}">
-    <div class="container">
+    <div class="container-fluid">
         <div class="footer__content">
             <div class="o-layout">
                 {% case section.blocks.size %}
