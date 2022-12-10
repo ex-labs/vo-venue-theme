@@ -5,6 +5,11 @@
     color:gray;
 }
 
+
+#prof_use_global .card {
+    margin-bottom: 20px;
+}
+
 #prof_use_global .card-text {
     min-height: 130px;
 }
