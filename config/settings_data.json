@@ -1423,32 +1423,20 @@
           "code": "<div class=\"placeholder-noblocks\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0079\/0085\/6375\/files\/disinfectants-onepager.jpg?v=1590177939\" alt=\"Safe Dis\"><\/div>"
         }
       },
-      "page-professionaluse": {
-        "type": "page-professionaluse",
+      "page-profuse_hvac": {
+        "type": "page-profuse_hvac",
         "blocks": {
-          "09b792c6-6f04-40aa-a6d6-603ac040c4db": {
+          "fe689bc0-2d7f-44ce-b4a5-7f78e52364e7": {
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/pexels-photomix-company-google.jpg",
               "link": "",
               "width": "1\/2"
             }
-          },
-          "ab8150a7-27e5-454d-8a1d-98923aedc817": {
-            "type": "text",
-            "settings": {
-              "title": "Text",
-              "text": "<p>Promote your brand by using a powerful combination of buttons, custom text, page content and images.<\/p>",
-              "link_title": "Learn more",
-              "link": "",
-              "align": "left",
-              "width": "1\/2"
-            }
           }
         },
         "block_order": [
-          "09b792c6-6f04-40aa-a6d6-603ac040c4db",
-          "ab8150a7-27e5-454d-8a1d-98923aedc817"
+          "fe689bc0-2d7f-44ce-b4a5-7f78e52364e7"
         ],
         "settings": {
           "container": "medium"
