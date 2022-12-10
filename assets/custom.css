@@ -1,5 +1,9 @@
 /** Custom CSS **/
 
+html {
+    overflow-y: unset!important;
+}
+
 
 #professionaluse {
     color:gray;
