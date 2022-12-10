@@ -20,3 +20,10 @@ html {
     background-size:cover;
     border-radius:10px;
 }
+
+
+/** Tachyons **/
+
+.f-headline {
+    font-size: 6rem;
+}
