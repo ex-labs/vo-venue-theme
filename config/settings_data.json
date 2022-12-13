@@ -150,6 +150,7 @@
           "show_border": false,
           "header_bg": "#ffffff",
           "header_style": "dark",
+          "logo": "shopify:\/\/shop_images\/vo-logo.jpg",
           "logo_size": 5,
           "logo_spacing": 5,
           "main_linklist": "main-menu",
