@@ -118,11 +118,11 @@
               "linklist": "policies"
             }
           },
-          "1494463348419": {
-            "type": "text",
+          "a76e1338-c3b9-4ca8-b072-f51bd09e2070": {
+            "type": "linklist",
             "settings": {
-              "title": "Our Mission",
-              "text": "<p>Our mission is to provide products that quickly eliminate viruses, bacteria, mold and mildew, odors, and allergens from your environment that could be potential health threats without exposing you to any harsh chemicals or harmful residue.<\/p><p>The well-being of people and planet is at the forefront of all that we do. With every bottle of Vital Oxide comes the promise that we are actively working toward environmentally sound cleaning and disinfecting solutions. <\/p>"
+              "title": "Menu",
+              "linklist": "footer"
             }
           }
         },
@@ -130,7 +130,7 @@
           "1494343958665",
           "1570646801972",
           "1570828330677",
-          "1494463348419"
+          "a76e1338-c3b9-4ca8-b072-f51bd09e2070"
         ],
         "settings": {
           "footer_newsletter_enable": true,
