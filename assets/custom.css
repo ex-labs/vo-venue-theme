@@ -44,6 +44,10 @@ html {
   display: none;
 }
 
+.header--mega .primary-nav .nav__sub__item {
+  width:unset;
+}
+
 /*
 
    TYPE SCALE
