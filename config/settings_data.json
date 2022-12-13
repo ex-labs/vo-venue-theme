@@ -115,7 +115,7 @@
             "type": "linklist",
             "settings": {
               "title": "Policies",
-              "linklist": ""
+              "linklist": "policies"
             }
           },
           "1494463348419": {
