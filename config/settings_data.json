@@ -153,7 +153,7 @@
           "logo": "shopify:\/\/shop_images\/vo-logo.jpg",
           "logo_size": 5,
           "logo_spacing": 5,
-          "main_linklist": "main-menu",
+          "main_linklist": "top-menu",
           "layout": "center",
           "style": "sticky",
           "mega_nav": true,
