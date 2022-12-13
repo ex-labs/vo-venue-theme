@@ -173,14 +173,14 @@
       "mobile-drawer": {
         "type": "mobile-drawer",
         "settings": {
-          "main_linklist": "",
+          "main_linklist": "top-menu",
           "contact_title": "Contact",
           "show_contact_number": true,
           "show_contact_email": true,
           "show_social": true,
           "cta_image_link": "",
           "cta_title": "",
-          "cta_text": "<p><\/p>",
+          "cta_text": "",
           "cta_link_title": "Learn more",
           "cta_link": ""
         }
