@@ -122,7 +122,7 @@
             "type": "linklist",
             "settings": {
               "title": "Resources",
-              "linklist": "footer"
+              "linklist": "resources"
             }
           }
         },
