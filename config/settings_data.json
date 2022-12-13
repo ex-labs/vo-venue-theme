@@ -488,6 +488,7 @@
           "1566456250311-1": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/brandless-18lr202tDKY-unsplash.jpg",
               "image_alignment": "center",
               "alignment": "left",
               "text_color": "default-light",
@@ -500,6 +501,7 @@
           "1570540607935": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/VO_Blog_EPA_Reg_2.jpg",
               "image_alignment": "center",
               "alignment": "left",
               "text_color": "default-light",
