@@ -52,6 +52,11 @@ html {
   padding: 10px!important;
 }
 
+.js-product-buttons {
+  display:block!important;
+  visibility: visible!important;
+}
+
 /*
 
    TYPE SCALE
