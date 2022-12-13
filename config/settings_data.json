@@ -150,7 +150,6 @@
           "show_border": false,
           "header_bg": "#ffffff",
           "header_style": "dark",
-          "logo": "shopify:\/\/shop_images\/vo-logo.jpg",
           "logo_size": 5,
           "logo_spacing": 5,
           "main_linklist": "main-menu",
@@ -475,6 +474,8 @@
           "1566456250311-0": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/combat_flu_season_desktop.png",
+              "image_mobile": "shopify:\/\/shop_images\/combat_flu_season_desktop.png",
               "image_alignment": "top",
               "alignment": "left",
               "text_color": "default-light",
@@ -491,7 +492,7 @@
               "alignment": "left",
               "text_color": "default-light",
               "title": "No rinse required: Save Time in Residential and Commercial Kitchens and FDA Inspected Food Processing Facilities",
-              "text": "<p>Certified by NSF International as a &quot;no rinse required on food-contact surfaces&quot; sanitizer, Vital Oxide reduces the level of food-borne bacteria by 99.999% on a food-contact surface within one minute.<\/p>",
+              "text": "<p>Certified by NSF International as a \"no rinse required on food-contact surfaces\" sanitizer, Vital Oxide reduces the level of food-borne bacteria by 99.999% on a food-contact surface within one minute.<\/p>",
               "link_title": "See Our Products",
               "link": "shopify:\/\/collections\/all"
             }
@@ -1424,25 +1425,6 @@
         "type": "home-html",
         "settings": {
           "code": ""
-        }
-      },
-      "page-profuse_hvac": {
-        "type": "page-profuse_hvac",
-        "blocks": {
-          "fe689bc0-2d7f-44ce-b4a5-7f78e52364e7": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/pexels-photomix-company-google.jpg",
-              "link": "",
-              "width": "1\/1"
-            }
-          }
-        },
-        "block_order": [
-          "fe689bc0-2d7f-44ce-b4a5-7f78e52364e7"
-        ],
-        "settings": {
-          "container": "medium"
         }
       }
     },
