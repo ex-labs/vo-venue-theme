@@ -100,7 +100,7 @@
               "title": "Connect",
               "show_email": true,
               "show_number": true,
-              "show_address": false,
+              "show_address": true,
               "show_social": true
             }
           },
@@ -108,7 +108,7 @@
             "type": "linklist",
             "settings": {
               "title": "Menu",
-              "linklist": ""
+              "linklist": "bottom-menu"
             }
           },
           "1570828330677": {
@@ -787,6 +787,7 @@
       },
       "1568306395531": {
         "type": "home-image-text",
+        "disabled": true,
         "settings": {
           "image_alignment": "bottom",
           "text": "<p><strong>Learn more about why Vital Oxide is the right Disinfectant and Mold Remover for you<\/strong><\/p>",
