@@ -40,6 +40,9 @@ html {
   color:#ffffff!important;
 }
 
+#dialog-wrapper__id {
+  display: none;
+}
 
 /*
 
