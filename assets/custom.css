@@ -48,6 +48,10 @@ html {
   width:unset;
 }
 
+.nav__sub__link {
+  padding: 10px!important;
+}
+
 /*
 
    TYPE SCALE
