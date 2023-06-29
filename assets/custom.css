@@ -46,6 +46,10 @@ html {
   height:450px;
 }
 
+.profuse-title h1 {
+  color:#fff;
+}
+
 /** Overrides **/
 
 .tc {
