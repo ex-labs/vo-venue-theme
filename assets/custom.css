@@ -28,6 +28,7 @@ html {
     background-size:cover;
     border-radius:10px;
     position:relative;
+    margin-bottom:20px;
 }
 
 .profuse-bg:before {
