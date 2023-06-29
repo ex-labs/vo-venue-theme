@@ -2,10 +2,8 @@
 
 
   <!-- content section -->
-    <div class="section"> 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+    <div class="section" style="margin-top:0px;"> 
+      <div class="col-md-12">
             {% if page.title == "HVAC/Indoor Air Quality" %}
               <div class="profuse-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0079/0085/6375/t/33/assets/image-1661206454943.png?v=1661206458')"></div>
             {% elsif page.title == "FITNESS" %}
@@ -21,7 +19,9 @@
             {% else %}
               <div class="profuse-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0079/0085/6375/t/33/assets/istock1011792694-1661455263687.jpg?v=1661455266')"></div>
             {% endif %}
-          </div>
+      </div>
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
             <div class="section__title">
               <h1 class="section__title-text f1">{{ page.title }}</h1>
