@@ -42,7 +42,7 @@ html {
 }
 
 .profuse-title {
-  display:flex;
+  display:grid;
   align-items:center;
   height:450px;
 }
