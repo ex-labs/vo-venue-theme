@@ -29,6 +29,10 @@ html {
     border-radius:10px;
 }
 
+.profuse-title {
+  display:flex;
+  align-items:center;
+}
 
 /** Overrides **/
 
