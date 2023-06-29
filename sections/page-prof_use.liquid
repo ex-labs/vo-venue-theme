@@ -17,7 +17,22 @@
             {% elsif page.title == "HEALTHCARE" %}
               <div class="profuse-bg" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/ecologyworks-73f6f.appspot.com/o/pexels-pixabay-236380.jpeg?alt=media&token=2ce9b47d-1d7c-4bcf-9567-8be0fb902adc')"></div>
             {% else %}
-              <div class="profuse-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0079/0085/6375/t/33/assets/istock1011792694-1661455263687.jpg?v=1661455266')"></div>
+              <div class="profuse-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0079/0085/6375/t/33/assets/istock1011792694-1661455263687.jpg?v=1661455266')">
+                
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="section__title">
+                        <h1 class="section__title-text f1">{{ page.title }}</h1>
+                      </div>
+                      <div class="page__content rte">
+                        {{ page.content }}
+                      </div>
+                    </div>
+                  </div><!-- end row -->
+                </div><!-- end container -->
+                
+              </div>
             {% endif %}
       </div>
       <div class="container">
