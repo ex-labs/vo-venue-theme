@@ -32,6 +32,10 @@ html {
 
 /** Overrides **/
 
+.tc {
+  text-align: center;
+}
+
 .home-rich-text p {
     text-align: left!important;
 }
