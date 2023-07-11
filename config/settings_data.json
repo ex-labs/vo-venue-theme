@@ -1457,6 +1457,27 @@
         "settings": {
           "container": "medium"
         }
+      },
+      "page-video": {
+        "type": "page-video",
+        "blocks": {
+          "4097636c-8ebf-4b4f-abe3-0b7191475d21": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/byszrx81JL4"
+            }
+          }
+        },
+        "block_order": [
+          "4097636c-8ebf-4b4f-abe3-0b7191475d21"
+        ],
+        "settings": {
+          "title": "Video gallery",
+          "desc": "",
+          "link_title": "More videos",
+          "link": "",
+          "overlay_strength": 50
+        }
       }
     },
     "content_for_index": [
