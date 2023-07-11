@@ -1478,12 +1478,19 @@
             "settings": {
               "video_url": "https:\/\/youtu.be\/gl_xCV2WYFY"
             }
+          },
+          "eec058a3-b9c3-4dc3-81cc-1a1ba9cb6ae2": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/qjDqiuNS86w"
+            }
           }
         },
         "block_order": [
           "4097636c-8ebf-4b4f-abe3-0b7191475d21",
           "8888307c-7dc7-4d7f-b7e4-4214243795d7",
-          "f7ed415e-060f-4475-90ce-97dfdc4a87aa"
+          "f7ed415e-060f-4475-90ce-97dfdc4a87aa",
+          "eec058a3-b9c3-4dc3-81cc-1a1ba9cb6ae2"
         ],
         "settings": {
           "title": "Our Videos",
