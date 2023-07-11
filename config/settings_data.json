@@ -1472,10 +1472,10 @@
           "4097636c-8ebf-4b4f-abe3-0b7191475d21"
         ],
         "settings": {
-          "title": "",
-          "desc": "",
+          "title": "Our Videos",
+          "desc": "<p>Learn More about Vital Oxide via our Youtube Channel.<\/p>",
           "link_title": "More videos",
-          "link": "",
+          "link": "https:\/\/www.youtube.com\/@vitaloxide\/videos",
           "overlay_strength": 50
         }
       }
