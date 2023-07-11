@@ -1501,7 +1501,7 @@
         ],
         "settings": {
           "title": "Our Videos",
-          "desc": "<p>Learn More about Vital Oxide via our Youtube Channel.<\/p>",
+          "desc": "<p>Learn More about Vital Oxide via our <a href=\"https:\/\/www.youtube.com\/@vitaloxide\/videos\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/@vitaloxide\/videos\">Youtube Channel.<\/a><\/p>",
           "link_title": "More videos",
           "link": "https:\/\/www.youtube.com\/@vitaloxide\/videos",
           "overlay_strength": 50
