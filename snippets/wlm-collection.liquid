@@ -1,5 +1,10 @@
 {%- assign w_continue = 'no' -%}
 {% assign wlmHideItem_Collection = false %}
+{% if wlm-collection.id == 276372291702  %}
+{% assign wlmHideItem_Collection = true %}
+{% endif %}
+
+
 
 {% if wlmHideItem_Collection == true %}{% continue %}{% endif %}
 
