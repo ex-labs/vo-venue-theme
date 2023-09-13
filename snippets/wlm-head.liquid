@@ -28,33 +28,6 @@ wlm.navigateListByAuth.may.push({lcid: '201458', hp: 'QuMHMYlKy7qpeAPSy8zn0Q==',
 {% endunless %}
 
 
-{% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
-{% assign wlmLockedContent = false %}
-{% if template contains "collection" or template contains "product" %}
-{% if product.collections %}
-{% for c in product.collections %}
-{% if c.id == 276372291702 %} 
-{% assign wlmLockedContent = true %}{% break %}
-{% endif %}
-{% endfor %}
-{% endif %}
-{% endif %}
-{% if template contains 'collection' or template contains 'product' %}
-{% if collection %}
-{% if   collection.handle == 'gym-buying-group' %}
-{% assign wlmLockedContent = true %}
-{% endif %}
-{% endif %}
-{% endif %}
-{% if wlmLockedContent %}
-<meta name='robots' content='NOINDEX,NOFOLLOW,NOARCHIVE,NOSNIPPET,NOODP,NOYDIR' />
-<script type='text/javascript'>
-wlm.navigateListByAuth.may.push({lcid: '201462', hp: 'QuMHMYlKy7qpeAPSy8zn0Q==', wlmPwdMsg: '<p>Access Vital Oxide exclusive to GRUPA</p>', pp: ''});
-</script>
-{% endif %}
-{% endunless %}
-
-
 {% endif %}
 
 {% capture wlm_check_hide %}{% include 'wlm-hideByLink' %}{% endcapture %}{% unless wlm_check_hide contains 'Liquid error' %}{% include 'wlm-hideByLink' %}{% endunless %}

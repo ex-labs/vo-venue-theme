@@ -3,17 +3,6 @@
 {% assign  wlmHideItem_Product = true %}{% endif %}
 
 
-{% if wlm-product.collections %}
-
-                            {% for c in wlm-product.collections %}
-{% if c.id == 276372291702 %} 
- {% if wlm_collection == null %}{% assign wlm_collection = 1 %}{%endif %}
-{% unless wlm_collection == "276372291702" or collection.id == 276372291702 %}
-{% assign  wlmHideItem_Product = true %}{% endunless %}
-
-{% endif %}
-{% endfor %}{% endif %}
-
 
 {% if wlmHideItem_Product == true %}{% continue %}{% endif %}
 
