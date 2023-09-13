@@ -19,17 +19,6 @@
 
 {% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
 {% assign wlmLockedContent = false %}
-{% if template contains "product" and product %} {% if product.id == 6750782095478 or product.id == 6750703419510 or product.id == 6750776590454 %} {% assign wlmLockedContent = true %}{% endif %}{% endif %}{% if wlmLockedContent %}
-<meta name='robots' content='NOINDEX,NOFOLLOW,NOARCHIVE,NOSNIPPET,NOODP,NOYDIR' />
-<script type='text/javascript'>
-wlm.navigateListByAuth.may.push({lcid: '201492', hp: 'I/ehOzGkXmbGCr+UBlV9AA==', wlmPwdMsg: '<p>Access Vital Oxide products exclusive to GRUPA</p>', pp: ''});
-</script>
-{% endif %}
-{% endunless %}
-
-
-{% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
-{% assign wlmLockedContent = false %}
 {% if template contains "collection" or template contains "product" %}
 {% if product.collections %}
 {% for c in product.collections %}
