@@ -8,16 +8,3 @@ wlm.arrHideLinks.push('a[href$="/collections/gym-buying-group"],a[href*="/collec
 {% endif %}
 
 
-{% assign wlmHideLinks=false %}
-{% unless customer %}
-{% assign wlmHideLinks = true %}
-{% else %}
-{% endunless %}
-
-{% if wlmHideLinks %}
-<script type='text/javascript'>
-wlm.arrHideLinks.push('a[href$="/products/vital-oxide-disinfectant-3oz-travel-size-bottle"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle/"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle?"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle#"]');
-</script><style type='text/css' class='wlm-auto-hl-styles'>a[href$="/products/vital-oxide-disinfectant-3oz-travel-size-bottle"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle/"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle?"],a[href*="/products/vital-oxide-disinfectant-3oz-travel-size-bottle#"]{ display: none !important; }</style>
-{% endif %}
-
-
