@@ -5,6 +5,7 @@
         <!-- custom label -->
         {% assign custom_label = false %}
         {% for collection in product.collections %}
+          {%- capture wlm_check -%}{%- render 'wlm-collection' with collection , wlm_is_render:'yes' -%}{%- endcapture -%}{%- if wlm_check == blank -%}{%continue%}{%- endif -%}
             {% if collection.title == collections[settings.product_grid_label_collection].title %}
                 {% assign custom_label = true %}
             {% endif %}
