@@ -49,7 +49,11 @@
                     <div class="section__bg section__bg--grey"></div>
 
                     <div class="o-layout o-layout--center{% if settings.product_grid_masonry %} o-layout--masonry{% endif %}">
-                        {% for product in search.results %}      
+                        {% for product in search.results %} 
+                          {% capture the_wlm_snippet_content %}{% include 'wlm-search' with product %}{% endcapture %}
+      {%- unless the_wlm_snippet_content contains 'Liquid error' -%}
+      {% include 'wlm-search' with product %}
+      {%- endunless -%}
                             {% if product.object_type == 'product' %}
                                 <div class="o-layout__item {{ grid_item_width }}">
                                     {%- assign image_size = '550x' -%}
