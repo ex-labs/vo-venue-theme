@@ -18,6 +18,10 @@
 [
 {%- paginate collections by 1000 -%}
 {% for collection in collections %}
+  {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-collection' with collection %}
+              {% endunless %}
 {
 {%- if pageurl contains 'preview=1' -%}
   "all_products_count": {{ collection.all_products_count | json }},
@@ -55,6 +59,10 @@
 [
 {%- paginate search.results by lim -%}
 {% for product in search.results %}
+  {% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-product' with product %}
+              {% endunless %}
 {
 {%- if pageurl contains 'preview=1' or pageurl contains 'q=id' -%}
   "available": {{ product.available | json }},
