@@ -59,10 +59,10 @@
 [
 {%- paginate search.results by lim -%}
 {% for product in search.results %}
-  {% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}
-              {% unless wlm_check contains "Liquid error" %}
-              {% include 'wlm-product' with product %}
-              {% endunless %}
+  {% capture the_wlm_snippet_content %}{% include 'wlm-search' with product %}{% endcapture %}
+      {%- unless the_wlm_snippet_content contains 'Liquid error' -%}
+      {% include 'wlm-search' with product %}
+      {%- endunless -%}
 {
 {%- if pageurl contains 'preview=1' or pageurl contains 'q=id' -%}
   "available": {{ product.available | json }},
