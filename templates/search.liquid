@@ -27,7 +27,11 @@
         {%- assign grid_item_width = 'u-1/1 u-1/2@phab u-1/3@tab' -%}
         {%- assign image_size = '550x' -%}
 
-        {% for item in search.results %}      
+        {% for item in search.results %} 
+          {% capture the_wlm_snippet_content %}{% include 'wlm-search' with item %}{% endcapture %}
+      {%- unless the_wlm_snippet_content contains 'Liquid error' -%}
+      {% include 'wlm-search' with item %}
+      {%- endunless -%}
             {% if item.object_type == 'product' %}
                  {% assign products_found = true %}
             {% endif %}
