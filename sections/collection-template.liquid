@@ -198,6 +198,10 @@
 
                             <div class="o-layout{% if settings.product_grid_masonry %} o-layout--masonry{% endif %}{% if section.settings.grid == 4 %} o-layout--small{% endif %}{% if section.settings.grid_mobile == '2' %} o-layout--small@tab-down{% endif %}">
                                 {% for product in collection.products %}
+                                  {% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}
+                                  {% unless wlm_check contains "Liquid error" %}
+                                  {% include 'wlm-product' with product %}
+                                  {% endunless %}
                                     <div class="o-layout__item u-1/{{ section.settings.grid_mobile }} {{ grid_item_width }}">
                                         {% include 'product-grid-item', grid_image_width: image_size, page: 'collection' %}
                                     </div>
