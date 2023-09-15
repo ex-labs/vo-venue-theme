@@ -48,7 +48,10 @@
                 <div class="o-layout o-layout--center{% if settings.product_grid_masonry %} o-layout--masonry{% endif %}{% if section.settings.grid == 4 %} o-layout--small{% endif %}{% if section.settings.mobile_layout == 'grid' and section.settings.grid_mobile == '2' %} o-layout--small@tab-down{% endif %}{% if section.settings.mobile_layout == 'carousel' %} layout-slider js-layout-slider js-layout-slider-{{ section.id }}{% endif %}">
                     
                     {% for product in collection.products limit: product_limit %}
-                        
+                        {% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-product' with product %}
+              {% endunless %}
                         <div class="o-layout__item {{ grid_item_width }}">
                             {% include 'product-grid-item', page: 'home' %}
                         </div>
