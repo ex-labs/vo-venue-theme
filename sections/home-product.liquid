@@ -1,5 +1,9 @@
 {% include 'spurit_po2_section_snippet', product: all_products[section.settings.featured_product], products: null %}
 {%- assign product = all_products[section.settings.featured_product] -%}
+{% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-product' with product %}
+              {% endunless %}
 
 {% if product.empty? %}
     {%- assign section_onboarding = true -%}
