@@ -38,6 +38,10 @@
                     {% for block in section.blocks limit: section.blocks.size %}
                         <div class="o-layout__item {{ grid_item_width }}" {{ block.shopify_attributes }}>
                             {%- assign collection = collections[block.settings.collection] -%}
+                      {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-collection' with collection %}
+              {% endunless %}
                             
                             {% if collection.empty? %}
                                 {% assign collection_image_url = '' %}
