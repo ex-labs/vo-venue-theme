@@ -29,6 +29,7 @@
       {% for i in paginate_arr %}
           {% paginate collection.products by i %}
               {% for product in collection.products %}
+                		{%- capture wlm_check -%}{%- render 'wlm-product' with product , wlm_is_render:'yes' -%}{%- endcapture -%}{%- if wlm_check == blank -%}{%continue%}{%- endif -%}
                   {% render 'spurit_po2_product_details_snippet', product: product %}
               {% endfor %}
           {% endpaginate %}
@@ -41,6 +42,7 @@
       {% for i in paginate_arr %}
           {% paginate search.results by i %}
               {% for item in search.results %}
+                {%- capture wlm_check -%}{%- render 'wlm-search' with item , wlm_is_render:'yes' -%}{%- endcapture -%}{%- if wlm_check == blank -%}{%continue%}{%- endif -%}
                   {% if item.object_type == 'product' %}
                       {% render 'spurit_po2_product_details_snippet', product: item %}
                   {% endif %}
