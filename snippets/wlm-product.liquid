@@ -10,6 +10,13 @@
 
 {% endif %}
 {% endfor %}{% endif %}
+{% if wlm-product.id == 1562590052407 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% endunless %}
+{% endif %}
+
 
 
 {% if wlmHideItem_Product == true %}{% continue %}{% endif %}
