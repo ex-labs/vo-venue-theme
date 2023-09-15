@@ -42,12 +42,20 @@
       
                         {% if section.settings.sort == 'products_low' or section.settings.sort == 'date' or section.settings.sort == 'alphabetical' %}
                             {% for collection in collections %}
+                              {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-collection' with collection %}
+              {% endunless %}
                                 <div class="o-layout__item {{ grid_item_width }}">
                                     {% include 'collection-grid-item' %}
                                 </div>
                             {% endfor %}
                         {% else %}
                             {% for collection in collections reversed %}
+                              {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-collection' with collection %}
+              {% endunless %}
                                 <div class="o-layout__item {{ grid_item_width }}">
                                     {% include 'collection-grid-item' %}
                                 </div>
@@ -59,6 +67,10 @@
                         {% for block in section.blocks %}
                             <div class="o-layout__item {{ grid_item_width }}">
                                 {%- assign collection = collections[block.settings.collection] -%}
+                          {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}
+              {% unless wlm_check contains "Liquid error" %}
+              {% include 'wlm-collection' with collection %}
+              {% endunless %}
                                 {% include 'collection-grid-item' %}
                             </div>
                         {% endfor %}
