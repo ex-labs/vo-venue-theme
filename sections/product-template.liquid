@@ -122,7 +122,7 @@
                                             </h3>
                                         </div>
 
-                                        {% capture 'product_id_attr' %}js-product-form--{{ product.id }}{% endcapture %}
+                                        {% capture product_id_attr %}js-product-form--{{ product.id }}{% endcapture %}
                                         {% form 'product', product, class: "product-single__form js-product-form", id:product_id_attr %}
 
                                             {% assign hide_default_title = false %}
@@ -502,4 +502,13 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture 'product_id_attr' %}"
+  to: "{% capture product_id_attr %}"
+  position: 8817..8846
+{%- endcomment -%}

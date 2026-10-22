@@ -35,7 +35,7 @@
                     {% unless blog.empty? or blog.articles_count == 0 %}
                         {% for article in blog.articles limit: section.settings.post_limit %}
                             <div class="o-layout__item u-1/1 {{ grid_item_width }}">
-                                {% include 'blog-grid-item', show_comments, show_author, show_author, show_date %}
+                                {% include 'blog-grid-item' %}
                             </div>
                         {% endfor %}
                     {% else %}
@@ -177,4 +177,14 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'blog-grid-item', show_comments, show_author, show_author, show_date
+    %}"
+  to: "{% include 'blog-grid-item' %}"
+  position: 1899..1929
+{%- endcomment -%}
